@@ -9,14 +9,13 @@
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
 <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
 
----
-
 **An end-to-end retail analytics project that transforms raw customer shopping data into actionable business insights through data preprocessing, SQL-based analysis, and an interactive Power BI dashboard.**
 
 </div>
+
 ---
 
-# 📊 Dashboard Preview
+## 📊 Dashboard Preview
 
 <p align="center">
   <img src="images/dashboard.png" alt="Customer Shopping Behavior Dashboard" width="95%">
@@ -24,7 +23,7 @@
 
 ---
 
-# 📁 Repository Navigation
+## 📁 Repository Navigation
 
 | Resource                                                                      | Description                                                                                        |
 | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
@@ -35,7 +34,7 @@
 
 ---
 
-# 📖 Overview
+## 📖 Overview
 
 This project demonstrates an end-to-end data analytics workflow using **Python, SQL, and Power BI** to analyze retail customer shopping behavior. Starting from raw transaction data, the project focuses on data cleaning, feature engineering, business analysis, and interactive dashboard development.
 
@@ -43,7 +42,7 @@ The analysis explores customer demographics, purchasing behavior, product perfor
 
 ---
 
-# 🎯 Business Objectives
+## 🎯 Business Objectives
 
 * Clean and prepare raw retail transaction data for analysis.
 * Perform feature engineering to improve analytical capabilities.
@@ -53,7 +52,7 @@ The analysis explores customer demographics, purchasing behavior, product perfor
 * Evaluate the impact of discounts on customer spending.
 * Build an interactive dashboard for business decision-making.
 
-# 🔄 End-to-End Analytics Workflow
+## 🔄 End-to-End Analytics Workflow
 
 ```text
                     Raw Customer Shopping Dataset
@@ -78,7 +77,7 @@ The dataset was cleaned and prepared for analysis using Python and Pandas throug
 - Engineered new features including **Age Group** and **Purchase Frequency (Days)**.
 - Validated relationships between discount and promotional fields before analysis.
 
-## 🗄️ SQL Business Analysis
+## 🗄️ Business Analysis
 
 Business-focused SQL queries were used to transform the cleaned dataset into actionable insights for retail decision-making.
 
