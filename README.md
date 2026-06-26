@@ -56,7 +56,7 @@ The analysis explores customer demographics, purchasing behavior, product perfor
 # 🔄 End-to-End Analytics Workflow
 
 ```text
-                                         Raw Customer Shopping Dataset
+                    Raw Customer Shopping Dataset
                                    │
                                    ▼
               🐍 Python (Data Preprocessing & EDA)
@@ -66,6 +66,7 @@ The analysis explores customer demographics, purchasing behavior, product perfor
                                    │
                                    ▼
             📊 Power BI (Interactive Dashboard)
+```
 
 ## ⚙️ Data Preprocessing
 
