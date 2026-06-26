@@ -42,6 +42,19 @@ The analysis explores customer demographics, purchasing behavior, product perfor
 
 ---
 
+## 📄 Dataset
+
+| Attribute | Details |
+|-----------|---------|
+| **Dataset** | Customer Shopping Behavior Dataset |
+| **Source** | Kaggle |
+| **Records** | 3,900 |
+| **Original Features** | 18 |
+| **Engineered Features** | 2 (`age_group`, `purchase_frequency_days`) |
+| **Dataset Type** | Synthetic Retail Customer Data |
+
+**Source:** https://www.kaggle.com/datasets/ayeshasiddiqa123/customer-shopping-behavior-dataset
+
 ## 🎯 Business Objectives
 
 * Clean and prepare raw retail transaction data for analysis.
