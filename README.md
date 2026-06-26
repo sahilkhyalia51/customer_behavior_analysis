@@ -56,41 +56,18 @@ The analysis explores customer demographics, purchasing behavior, product perfor
 # 🔄 End-to-End Analytics Workflow
 
 ```text
-                     Raw Customer Shopping Dataset
+                                         Raw Customer Shopping Dataset
                                    │
                                    ▼
-                        🐍 Python (Pandas)
-          ───────────────────────────────────────────
-          • Data Loading
-          • Data Quality Assessment
-          • Missing Value Imputation
-          • Column Standardization (snake_case)
-          • Feature Engineering
-          • Exploratory Data Analysis (EDA)
+              🐍 Python (Data Preprocessing & EDA)
                                    │
                                    ▼
-                               SQL Analysis
-          ───────────────────────────────────────────
-          • Business Queries
-          • Aggregations
-          • CASE Statements
-          • CTEs
-          • Window Functions
-          • Customer Segmentation
+                 🗄️ SQL (Business Analysis)
                                    │
                                    ▼
-                         📊 Power BI Dashboard
-          ───────────────────────────────────────────
-          • KPI Cards
-          • Interactive Filters
-          • Revenue Analysis
-          • Customer Insights
-          • Category Performance
-          • Executive Dashboard
+            📊 Power BI (Interactive Dashboard)
 
----
-
-# ⚙️ Data Preprocessing
+## ⚙️ Data Preprocessing
 
 The dataset was cleaned and prepared for analysis using Python and Pandas through the following steps:
 
@@ -100,7 +77,7 @@ The dataset was cleaned and prepared for analysis using Python and Pandas throug
 - Engineered new features including **Age Group** and **Purchase Frequency (Days)**.
 - Validated relationships between discount and promotional fields before analysis.
 
-# 🗄️ SQL Business Analysis
+## 🗄️ SQL Business Analysis
 
 Business-focused SQL queries were used to transform the cleaned dataset into actionable insights for retail decision-making.
 
@@ -118,7 +95,7 @@ Business-focused SQL queries were used to transform the cleaned dataset into act
 
 The analysis was implemented using **aggregate functions, CASE statements, Common Table Expressions (CTEs), subqueries, and window functions** to answer these business questions efficiently.
 
-# 📊 Interactive Dashboard
+## 📊 Interactive Dashboard
 
 The Power BI dashboard provides an interactive view of customer shopping behavior through KPIs, filters, and business-focused visualizations.
 
@@ -130,7 +107,7 @@ The Power BI dashboard provides an interactive view of customer shopping behavio
 - Sales distribution across product categories.
 - Customer subscription analysis.
 
-# 📂 Repository Structure
+## 📂 Repository Structure
 
 ```text
 customer_behavior_analysis
